@@ -13,7 +13,7 @@ const productRouter = require('./routes/products')
 const voteRouter = require('./routes/total')
 
 var app = express();
-mongoose.connect('mongodb://localhost/my_database', {
+mongoose.connect('mongodb://kenbro:224566Lc@ds353338.mlab.com:53338/startupweekend', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
